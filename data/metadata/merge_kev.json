@@ -1,0 +1,17 @@
+{
+  "built_at_utc": "2026-11-17T22:24:07.256076+00:00",
+  "kev_file": "kev_20261117T212252Z.json",
+  "kev_catalog_version": "2026.11.17",
+  "kev_catalog_date_released": "2026-11-17T17:53:15.5664Z",
+  "kev_rows_in_file": 1782,
+  "kev_unique_cve_ids": 1782,
+  "nvd_rows": 426816,
+  "nvd_unique_cve_ids": 426816,
+  "rows_flagged_is_kev": 1782,
+  "kev_cves_matched_in_nvd": 1782,
+  "kev_cves_not_found_in_nvd": [],
+  "crosscheck_both": 1782,
+  "crosscheck_only_in_our_match": 0,
+  "crosscheck_only_in_nvd_flag": 0,
+  "output": "data/interim/nvd_kev_merged.parquet"
+}
