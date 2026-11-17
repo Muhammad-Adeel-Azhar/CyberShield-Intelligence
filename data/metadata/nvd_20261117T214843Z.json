@@ -1,0 +1,19 @@
+{
+  "source": "NVD CVE API 2.0",
+  "endpoint": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+  "run_id": "20261117T214843Z",
+  "started_at_utc": "2026-11-17T21:48:43.057076+00:00",
+  "finished_at_utc": "2026-11-17T22:03:02.476604+00:00",
+  "api_key_used": true,
+  "results_per_page": 2000,
+  "nvd_api_version": "2.0",
+  "nvd_format": "NVD_CVE",
+  "first_page_timestamp": "2026-11-17T21:48:43.100",
+  "last_page_timestamp": "2026-11-17T22:03:00.740",
+  "total_results_reported": 426816,
+  "records_saved": 426816,
+  "pages_downloaded_this_run": 214,
+  "pages_reused_from_earlier_run": 0,
+  "complete": true,
+  "raw_dir": "data/raw/nvd/run_20261117T214843Z"
+}
