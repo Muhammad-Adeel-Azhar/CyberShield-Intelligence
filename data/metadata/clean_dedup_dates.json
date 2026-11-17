@@ -1,0 +1,39 @@
+{
+  "built_at_utc": "2026-11-17T22:27:05.723546+00:00",
+  "rows_before": 426816,
+  "invalid_cve_ids": 0,
+  "full_row_duplicates": 0,
+  "duplicate_cve_ids_removed": 0,
+  "rows_after": 426816,
+  "is_kev_before": 1782,
+  "is_kev_after": 1782,
+  "dates": {
+    "published": {
+      "non_null": 426816,
+      "failed_to_parse": 0,
+      "min": "1988-10-01 04:00:00+00:00",
+      "max": "2026-11-17 21:18:12.913000+00:00"
+    },
+    "last_modified": {
+      "non_null": 426816,
+      "failed_to_parse": 0,
+      "min": "2023-11-07 01:54:53.530000+00:00",
+      "max": "2026-11-17 21:53:36.153000+00:00"
+    },
+    "kev_date_added": {
+      "non_null": 1782,
+      "failed_to_parse": 0,
+      "min": "2021-11-03 00:00:00+00:00",
+      "max": "2026-11-17 00:00:00+00:00"
+    },
+    "nvd_cisa_exploit_add": {
+      "non_null": 1782,
+      "failed_to_parse": 0,
+      "min": "2021-11-03 00:00:00+00:00",
+      "max": "2026-11-17 00:00:00+00:00"
+    }
+  },
+  "last_modified_before_published": 0,
+  "published_in_future": 0,
+  "output": "data/interim/nvd_kev_clean.parquet"
+}
