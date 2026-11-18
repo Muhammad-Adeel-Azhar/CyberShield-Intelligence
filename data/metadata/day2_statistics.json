@@ -1,0 +1,111 @@
+{
+  "built_at_utc": "2026-11-18T22:10:41.233358+00:00",
+  "total": 407639,
+  "kev": 1782,
+  "non_kev": 405857,
+  "cvss_statistics": {
+    "CVSS 2.0": {
+      "count": 197332,
+      "pct_of_all": 48.41,
+      "mean": 5.912,
+      "median": 5.5,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 1.972
+    },
+    "CVSS 3.0": {
+      "count": 54890,
+      "pct_of_all": 13.47,
+      "mean": 7.19,
+      "median": 7.5,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 1.668
+    },
+    "CVSS 3.1": {
+      "count": 279005,
+      "pct_of_all": 68.44,
+      "mean": 7.026,
+      "median": 7.2,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 1.704
+    },
+    "CVSS 4.0": {
+      "count": 47497,
+      "pct_of_all": 11.65,
+      "mean": 6.331,
+      "median": 6.9,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 2.286
+    },
+    "Best available": {
+      "count": 403509,
+      "pct_of_all": 98.99,
+      "mean": 6.911,
+      "median": 7.1,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 1.795
+    }
+  },
+  "best_score_by_class": {
+    "kev": {
+      "count": 1782,
+      "pct_of_all": 100.0,
+      "mean": 8.404,
+      "median": 8.8,
+      "min": 2.7,
+      "max": 10.0,
+      "std": 1.35
+    },
+    "non_kev": {
+      "count": 401727,
+      "pct_of_all": 98.98,
+      "mean": 6.904,
+      "median": 7.1,
+      "min": 0.0,
+      "max": 10.0,
+      "std": 1.794
+    }
+  },
+  "best_score_source_counts": {
+    "v3.1": 279005,
+    "v2.0": 72397,
+    "v3.0": 43423,
+    "v4.0": 8684,
+    "none": 4130
+  },
+  "duplicate_rows": 0,
+  "duplicate_cve_ids": 0,
+  "repeated_descriptions": 18418,
+  "columns_over_20pct_missing": [
+    "kev_date_added",
+    "nvd_cisa_exploit_add",
+    "cvss_v40_vector",
+    "cvss_v40_severity",
+    "cvss_v40_score",
+    "cvss_v30_severity",
+    "cvss_v30_vector",
+    "cvss_v30_score",
+    "cvss_v2_severity",
+    "cvss_v2_score",
+    "cvss_v2_vector",
+    "cvss_v31_vector",
+    "cvss_v31_severity",
+    "cvss_v31_score",
+    "v3_user_interaction",
+    "v3_privileges_required",
+    "v3_scope",
+    "v3_confidentiality_impact",
+    "v3_exploitability_score",
+    "v3_impact_score",
+    "v3_attack_vector",
+    "v3_attack_complexity",
+    "v3_integrity_impact",
+    "v3_availability_impact",
+    "products",
+    "vendors"
+  ]
+}
