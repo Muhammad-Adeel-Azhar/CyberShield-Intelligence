@@ -1,0 +1,22 @@
+{
+  "built_at_utc": "2026-11-18T21:29:13.601939+00:00",
+  "all_rows": {
+    "rows": 426816,
+    "kev": 1782,
+    "non_kev": 425034,
+    "kev_pct": 0.4175
+  },
+  "without_rejected": {
+    "rows": 407639,
+    "kev": 1782,
+    "non_kev": 405857,
+    "kev_pct": 0.4372
+  },
+  "rejected_rows": 19177,
+  "days_to_kev_median": 214.5,
+  "pct_kev_added_within_days": {
+    "30": 33.4,
+    "90": 41.3,
+    "365": 55.8
+  }
+}
