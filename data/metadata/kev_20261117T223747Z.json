@@ -1,0 +1,13 @@
+{
+  "source": "CISA Known Exploited Vulnerabilities catalog",
+  "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "collected_at_utc": "2026-11-17T22:37:47.302671+00:00",
+  "http_status": 200,
+  "catalog_title": "CISA Catalog of Known Exploited Vulnerabilities",
+  "catalog_version": "2026.11.17",
+  "date_released": "2026-11-17T17:53:15.5664Z",
+  "reported_count": 1782,
+  "records_found": 1782,
+  "sha256": "11ee3c54a8c3f112047bb0088763acd8d2d3513259a8d08b89a327e8a2ce7dee",
+  "raw_file": "data\\raw\\kev\\kev_20261117T223747Z.json"
+}
