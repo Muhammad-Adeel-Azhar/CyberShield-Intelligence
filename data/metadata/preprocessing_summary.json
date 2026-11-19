@@ -1,0 +1,118 @@
+{
+  "built_at_utc": "2026-11-19T04:52:04.275073+00:00",
+  "sklearn_version": "1.9.1",
+  "split": {
+    "train_years": [
+      2016,
+      2022
+    ],
+    "validation_year": 2023,
+    "test_year": 2024,
+    "held_out": "2025 and later (labels still maturing)"
+  },
+  "set_sizes": [
+    {
+      "set": "train (2016-2022)",
+      "rows": 118220,
+      "kev": 840,
+      "kev_pct": 0.711
+    },
+    {
+      "set": "validation (2023)",
+      "rows": 28815,
+      "kev": 166,
+      "kev_pct": 0.576
+    },
+    {
+      "set": "test (2024)",
+      "rows": 39629,
+      "kev": 161,
+      "kev_pct": 0.406
+    },
+    {
+      "set": "held out (2025+)",
+      "rows": 134425,
+      "kev": 417,
+      "kev_pct": 0.31
+    }
+  ],
+  "numeric_features": [
+    "cvss_base_score",
+    "desc_words",
+    "desc_chars",
+    "published_year"
+  ],
+  "categorical_features": [
+    "attack_vector",
+    "attack_complexity",
+    "privileges_required",
+    "user_interaction",
+    "scope",
+    "confidentiality_impact",
+    "integrity_impact",
+    "availability_impact",
+    "cwe_category"
+  ],
+  "use_published_year": true,
+  "onehot_min_frequency": 50,
+  "output_columns": 162,
+  "categorical_summary": [
+    {
+      "feature": "attack_vector",
+      "categories_seen": 4,
+      "grouped_as_infrequent": 0,
+      "output_columns": 4
+    },
+    {
+      "feature": "attack_complexity",
+      "categories_seen": 2,
+      "grouped_as_infrequent": 0,
+      "output_columns": 2
+    },
+    {
+      "feature": "privileges_required",
+      "categories_seen": 3,
+      "grouped_as_infrequent": 0,
+      "output_columns": 3
+    },
+    {
+      "feature": "user_interaction",
+      "categories_seen": 2,
+      "grouped_as_infrequent": 0,
+      "output_columns": 2
+    },
+    {
+      "feature": "scope",
+      "categories_seen": 2,
+      "grouped_as_infrequent": 0,
+      "output_columns": 2
+    },
+    {
+      "feature": "confidentiality_impact",
+      "categories_seen": 3,
+      "grouped_as_infrequent": 0,
+      "output_columns": 3
+    },
+    {
+      "feature": "integrity_impact",
+      "categories_seen": 3,
+      "grouped_as_infrequent": 0,
+      "output_columns": 3
+    },
+    {
+      "feature": "availability_impact",
+      "categories_seen": 3,
+      "grouped_as_infrequent": 0,
+      "output_columns": 3
+    },
+    {
+      "feature": "cwe_category",
+      "categories_seen": 533,
+      "grouped_as_infrequent": 398,
+      "output_columns": 136
+    }
+  ],
+  "fitted_on": "training years only",
+  "pipeline_file": "models/preprocessor.joblib",
+  "pipeline_size_kb": 18.4
+}
