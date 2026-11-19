@@ -12,8 +12,7 @@ META_DIR = ROOT / "data" / "metadata"
 
 # Modeling population (see the Day 2 population checks)
 FIRST_YEAR = 2016        # CVSS 3.x was assigned at publication from 2016 on
-ONLY_ANALYZED = True     # False gives the robustness population (E)
-
+ONLY_ANALYZED = False    # population E: all statuses
 NUMERIC = ["cvss_base_score", "published_year", "desc_words", "desc_chars"]
 CATEGORICAL = ["attack_vector", "attack_complexity", "privileges_required", "user_interaction", "scope",
                "confidentiality_impact", "integrity_impact", "availability_impact", "cwe_category"]

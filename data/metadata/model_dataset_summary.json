@@ -1,11 +1,11 @@
 {
-  "built_at_utc": "2026-11-19T04:38:40.525304+00:00",
-  "population": "Published 2016+, CVSS 3.x data, Analyzed",
+  "built_at_utc": "2026-11-19T04:45:07.849525+00:00",
+  "population": "Published 2016+, CVSS 3.x data",
   "first_year": 2016,
-  "only_analyzed": true,
-  "rows": 79964,
+  "only_analyzed": false,
+  "rows": 321089,
   "kev": 1584,
-  "kev_pct": 1.9809,
+  "kev_pct": 0.4933,
   "numeric_features": [
     "cvss_base_score",
     "published_year",
@@ -36,7 +36,7 @@
     "confidentiality_impact": 0.0,
     "integrity_impact": 0.0,
     "availability_impact": 0.0,
-    "cwe_category": 0.0
+    "cwe_category": 1.1
   },
   "output": "data/processed/model_dataset.parquet"
 }
