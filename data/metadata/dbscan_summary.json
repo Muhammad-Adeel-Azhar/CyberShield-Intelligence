@@ -1,0 +1,19 @@
+{
+  "built_at_utc": "2026-11-20T12:05:39.315916+00:00",
+  "sample_rows": 20000,
+  "sample_kev": 130,
+  "seed": 42,
+  "eps": 1.636,
+  "min_samples": 50,
+  "clusters": 10,
+  "core_points": 14000,
+  "noise_points": 3160,
+  "ari": -0.0042000337484615485,
+  "nmi": 0.0026214790476432955,
+  "ari_clustered_only": -0.006080615149866491,
+  "nmi_clustered_only": 0.0032623077551418187,
+  "ari_chance_p95": 0.0008265662863183597,
+  "nmi_chance_p95": 0.0005343933133542284,
+  "pca_variance_explained_2d": 0.4471235912132418,
+  "is_kev_used_as_input": false
+}
