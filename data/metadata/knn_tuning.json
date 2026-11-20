@@ -1,0 +1,42 @@
+{
+  "built_at_utc": "2026-11-19T15:14:23.624702+00:00",
+  "train_rows": 118220,
+  "validation_rows": 28815,
+  "validation_kev": 166,
+  "k_values": [
+    1,
+    3,
+    5,
+    11,
+    21,
+    51,
+    101,
+    201,
+    301
+  ],
+  "weights": [
+    "uniform",
+    "distance"
+  ],
+  "selection_rule": "highest validation average precision",
+  "selected": {
+    "weights": "distance",
+    "k": 101,
+    "threshold_best_f1_on_validation": 0.0411
+  },
+  "validation_metrics_selected": {
+    "weights": "distance",
+    "k": 101.0,
+    "accuracy": 0.99424,
+    "precision_at_0.5": 0.0,
+    "recall_at_0.5": 0.0,
+    "f1_at_0.5": 0.0,
+    "avg_precision": 0.0336,
+    "roc_auc": 0.7145,
+    "best_f1": 0.0729,
+    "best_f1_threshold": 0.0411,
+    "best_f1_precision": 0.0475,
+    "best_f1_recall": 0.1566
+  },
+  "test_set_used": false
+}

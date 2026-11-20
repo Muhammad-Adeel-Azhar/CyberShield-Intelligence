@@ -1,0 +1,137 @@
+{
+  "built_at_utc": "2026-11-20T11:38:36.651260+00:00",
+  "test_year": 2024,
+  "test_rows": 39629,
+  "test_kev": 161,
+  "knn": {
+    "weights": "distance",
+    "k": 101,
+    "threshold": 0.041100997169323104
+  },
+  "tree": {
+    "max_depth": 12,
+    "min_samples_leaf": 50,
+    "class_weight": "balanced",
+    "threshold": 0.911672979722547
+  },
+  "results": [
+    {
+      "decision_rule": "default rule (kNN: majority vote > 0.5, Tree: predict())",
+      "model": "Majority baseline",
+      "accuracy": 0.995937318630296,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 161,
+      "tn": 39468,
+      "flagged": 0
+    },
+    {
+      "decision_rule": "default rule (kNN: majority vote > 0.5, Tree: predict())",
+      "model": "kNN",
+      "accuracy": 0.995937318630296,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 161,
+      "tn": 39468,
+      "flagged": 0
+    },
+    {
+      "decision_rule": "default rule (kNN: majority vote > 0.5, Tree: predict())",
+      "model": "Decision Tree",
+      "accuracy": 0.7512175427086225,
+      "precision": 0.010696266397578204,
+      "recall": 0.6583850931677019,
+      "f1": 0.021050541157779764,
+      "tp": 106,
+      "fp": 9804,
+      "fn": 55,
+      "tn": 29664,
+      "flagged": 9910
+    },
+    {
+      "decision_rule": "validation-tuned threshold",
+      "model": "Majority baseline",
+      "accuracy": 0.995937318630296,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 161,
+      "tn": 39468,
+      "flagged": 0
+    },
+    {
+      "decision_rule": "validation-tuned threshold",
+      "model": "kNN",
+      "accuracy": 0.9765575714754346,
+      "precision": 0.028255528255528257,
+      "recall": 0.14285714285714285,
+      "f1": 0.04717948717948718,
+      "tp": 23,
+      "fp": 791,
+      "fn": 138,
+      "tn": 38677,
+      "flagged": 814
+    },
+    {
+      "decision_rule": "validation-tuned threshold",
+      "model": "Decision Tree",
+      "accuracy": 0.9930354033662218,
+      "precision": 0.008547008547008548,
+      "recall": 0.006211180124223602,
+      "f1": 0.007194244604316547,
+      "tp": 1,
+      "fp": 116,
+      "fn": 160,
+      "tn": 39352,
+      "flagged": 117
+    }
+  ],
+  "average_precision": {
+    "kNN": 0.025607912802780495,
+    "Decision Tree": 0.013300737229750368
+  },
+  "roc_auc": {
+    "kNN": 0.7356735891707538,
+    "Decision Tree": 0.6887040967853824
+  },
+  "bootstrap": {
+    "resamples": 1000,
+    "ap_knn_95": [
+      0.014537725588027215,
+      0.05092855025193856
+    ],
+    "ap_tree_95": [
+      0.010285010252140198,
+      0.01791638430436563
+    ],
+    "ap_diff_knn_minus_tree_95": [
+      0.0024371238058523686,
+      0.03703212608878811
+    ]
+  },
+  "top_tree_features": {
+    "cvss_base_score": 0.39122,
+    "desc_chars": 0.12989,
+    "desc_words": 0.12884,
+    "published_year": 0.05762,
+    "confidentiality_impact_HIGH": 0.04943,
+    "cwe_category_CWE-399": 0.02682,
+    "cwe_category_CWE-125": 0.02289,
+    "cwe_category_CWE-352": 0.02244,
+    "cwe_category_CWE-89": 0.02157,
+    "cwe_category_CWE-78": 0.01692,
+    "cwe_category_CWE-119": 0.01478,
+    "availability_impact_NONE": 0.01075,
+    "cwe_category_CWE-264": 0.01026,
+    "cwe_category_CWE-843": 0.00849,
+    "cwe_category_CWE-284": 0.00781
+  }
+}

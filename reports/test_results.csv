@@ -1,0 +1,7 @@
+decision_rule,model,accuracy,precision,recall,f1,tp,fp,fn,tn,flagged
+"default rule (kNN: majority vote > 0.5, Tree: predict())",Majority baseline,0.995937318630296,0.0,0.0,0.0,0,0,161,39468,0
+"default rule (kNN: majority vote > 0.5, Tree: predict())",kNN,0.995937318630296,0.0,0.0,0.0,0,0,161,39468,0
+"default rule (kNN: majority vote > 0.5, Tree: predict())",Decision Tree,0.7512175427086225,0.010696266397578204,0.6583850931677019,0.021050541157779764,106,9804,55,29664,9910
+validation-tuned threshold,Majority baseline,0.995937318630296,0.0,0.0,0.0,0,0,161,39468,0
+validation-tuned threshold,kNN,0.9765575714754346,0.028255528255528257,0.14285714285714285,0.04717948717948718,23,791,138,38677,814
+validation-tuned threshold,Decision Tree,0.9930354033662218,0.008547008547008548,0.006211180124223602,0.007194244604316547,1,116,160,39352,117
